@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Home from './pages/Home';
 import Menu from './pages/Menu';
 import About from './pages/About';
-import Contact from './pages/Contact';
+// import Contact from './components/Contact';
 import Register from './pages/Register';
 import Login from './pages/Login';
 // import { useFirebase } from './context/Firebase';
@@ -36,7 +36,7 @@ function App() {
               <Nav.Link href='/' className='active text-uppercase fw-bold'>Home</Nav.Link>
               <Nav.Link href='/menu' className='active text-uppercase fw-bold'>Menu</Nav.Link>
               <Nav.Link href='/about' className='active text-uppercase fw-bold'>About</Nav.Link>
-              <Nav.Link href='/contact' className='active text-uppercase fw-bold'>Contact</Nav.Link>
+              <Nav.Link href='https://www.initializ.ai/contact-sales' target="_blank" className='active text-uppercase fw-bold'>Contact</Nav.Link>
               {/* <Nav.Link href='/register' className='active text-uppercase'>Register</Nav.Link>
               <Nav.Link href='/login' className='active text-uppercase'>Login</Nav.Link>
               <Nav.Link href='/admin' className='active text-uppercase'>Admin</Nav.Link>
@@ -50,7 +50,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={ <Contact />} />
+        {/* <Route path="/contact" element={ <Contact />} /> */}
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path='/admin' element={<Admin />} />
