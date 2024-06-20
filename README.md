@@ -19,7 +19,7 @@ Step 4: [Deploy on Initializ](https://console.initializ.ai/create-app/?clone=htt
  
 ## How To Use
  
-From your command line, clone and run :
+From your command line, clone and run FlavorFusion :
  
 ```bash
 # Clone this repository
